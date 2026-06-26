@@ -1,0 +1,13 @@
+__pycache__/
+*.pyc
+
+logs/
+*.log
+
+.vscode/
+.idea/
+
+data/netflix_extracted.csv
+data/netflix_transformed.csv
+
+.env
