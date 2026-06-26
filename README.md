@@ -92,7 +92,7 @@ Airflow\_ETL\_Project/
 
 
 
-<img src="./screenshots/airflow\_graph.png" width="900">
+!\[Airflow Graph](./screenshots/airflow\_graph.png)
 
 
 
@@ -100,7 +100,7 @@ Airflow\_ETL\_Project/
 
 
 
-<img src="./screenshots/airflow\_grid.png" width="900">
+!\[Airflow Grid](./screenshots/airflow\_grid.png)
 
 
 
@@ -108,7 +108,7 @@ Airflow\_ETL\_Project/
 
 
 
-<img src="./screenshots/postgres\_count.png" width="900">
+!\[PostgreSQL](./screenshots/postgres\_count.png)
 
 
 
@@ -116,11 +116,7 @@ Airflow\_ETL\_Project/
 
 
 
-<img src="./screenshots/github\_repo.png" width="900">
-
-\## PostgreSQL Verification
-
-
+!\[GitHub Repository](./screenshots/github\_repo.png)
 
 ```sql
 
