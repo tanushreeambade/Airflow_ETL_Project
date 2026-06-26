@@ -6,47 +6,31 @@
 
 
 
-\---
-
-
-
 \## Project Overview
 
 
 
-This project implements a complete ETL (Extract, Transform, Load) pipeline using Apache Airflow.
+This project demonstrates an end-to-end ETL (Extract, Transform, Load) pipeline using Apache Airflow.
 
 
 
-The pipeline performs the following operations:
+\### Technologies Used
 
 
 
-\* Extract Netflix dataset from CSV
+\- Apache Airflow
 
-\* Transform and clean the dataset
+\- Python
 
-\* Load the processed data into PostgreSQL
+\- Docker
 
-\* Schedule and monitor the workflow using Apache Airflow
+\- PostgreSQL
 
+\- Pandas
 
+\- SQLAlchemy
 
-\## Tech Stack
-
-
-
-\* Apache Airflow 3
-
-\* Python
-
-\* PostgreSQL
-
-\* Docker \& Docker Compose
-
-\* Pandas
-
-\* SQLAlchemy
+\- Git \& GitHub
 
 
 
@@ -54,7 +38,11 @@ The pipeline performs the following operations:
 
 
 
-Extract → Transform → Load
+1\. Extract Netflix dataset
+
+2\. Transform data
+
+3\. Load data into PostgreSQL
 
 
 
@@ -62,47 +50,111 @@ Extract → Transform → Load
 
 
 
-Netflix Movies and TV Shows Dataset
+\- Netflix Movies \& TV Shows Dataset
 
-
-
-\## Output
-
-
-
-\* Total Records Loaded: \*\*8807\*\*
-
-\* PostgreSQL Database Integration
-
-\* Automated ETL Pipeline
-
-\* Airflow DAG Scheduling
+\- Total Records: \*\*8807\*\*
 
 
 
 \## Project Structure
 
+
+
+```
+
 Airflow\_ETL\_Project/
 
-│── dags/
+│
 
-│── config/
+├── dags/
 
-│── data/
+├── data/
 
-│── plugins/
+├── config/
 
-│── scripts/
+├── screenshots/
 
-│── screenshots/
+├── docker-compose.yaml
 
-│── docker-compose.yaml
+├── README.md
 
-│── requirements.txt
+└── .gitignore
 
-│── README.md
-
-
+```
 
 
+
+\## Screenshots
+
+
+
+\### Airflow Graph
+
+
+
+!\[Graph](screenshots/airflow\_graph.png)
+
+
+
+\### Airflow Grid
+
+
+
+!\[Grid](screenshots/airflow\_grid.png)
+
+
+
+\### PostgreSQL
+
+
+
+!\[Postgres](screenshots/postgres\_count.png)
+
+
+
+\### GitHub Repository
+
+
+
+!\[Repository](screenshots/github\_repo.png)
+
+
+
+\## PostgreSQL Verification
+
+
+
+```sql
+
+SELECT COUNT(\*) FROM netflix\_data;
+
+```
+
+
+
+Output
+
+
+
+```
+
+8807
+
+```
+
+
+
+\## Future Improvements
+
+
+
+\- AWS EC2 Deployment
+
+\- CI/CD using GitHub Actions
+
+\- Data Validation
+
+\- Email Notifications
+
+\- Scheduling enhancements
 
