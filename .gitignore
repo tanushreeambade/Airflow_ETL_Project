@@ -9,5 +9,5 @@ logs/
 
 data/netflix_extracted.csv
 data/netflix_transformed.csv
-
+data/netflix_final.csv
 .env
