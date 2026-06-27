@@ -14,11 +14,11 @@
 
 
 
-This project demonstrates an end-to-end ETL (Extract, Transform, Load) pipeline using \*\*Apache Airflow\*\*, \*\*Python\*\*, \*\*PostgreSQL\*\*, and \*\*Docker\*\*.
+This project demonstrates a complete \*\*ETL (Extract, Transform, Load)\*\* pipeline using \*\*Apache Airflow\*\*, \*\*Python\*\*, \*\*PostgreSQL\*\*, and \*\*Docker\*\*.
 
 
 
-The pipeline automatically extracts Netflix dataset, performs data cleaning and transformation, and loads the processed data into PostgreSQL.
+The pipeline automatically extracts the Netflix dataset, performs data cleaning and transformation, and loads the processed data into PostgreSQL. Apache Airflow is used to orchestrate and schedule each stage of the workflow.
 
 
 
@@ -30,17 +30,17 @@ The pipeline automatically extracts Netflix dataset, performs data cleaning and 
 
 
 
-\- Apache Airflow 3
+\* Apache Airflow 3
 
-\- Python
+\* Python
 
-\- PostgreSQL
+\* PostgreSQL
 
-\- Docker \& Docker Compose
+\* Docker \& Docker Compose
 
-\- Pandas
+\* Pandas
 
-\- SQLAlchemy
+\* SQLAlchemy
 
 
 
@@ -54,7 +54,7 @@ The pipeline automatically extracts Netflix dataset, performs data cleaning and 
 
 1\. Extract Netflix dataset
 
-2\. Transform and clean data
+2\. Transform and clean the data
 
 3\. Load processed data into PostgreSQL
 
@@ -68,9 +68,9 @@ The pipeline automatically extracts Netflix dataset, performs data cleaning and 
 
 
 
-\- Netflix Movies \& TV Shows Dataset
+\* Netflix Movies \& TV Shows Dataset
 
-\- Total Records Loaded: \*\*8807\*\*
+\* Total Records Loaded: \*\*8807\*\*
 
 
 
@@ -82,15 +82,15 @@ The pipeline automatically extracts Netflix dataset, performs data cleaning and 
 
 
 
-\- Automated ETL Pipeline
+\* Automated ETL Pipeline
 
-\- Data Cleaning \& Transformation
+\* Data Cleaning \& Transformation
 
-\- PostgreSQL Integration
+\* PostgreSQL Database Integration
 
-\- Airflow DAG Scheduling
+\* Apache Airflow DAG Scheduling
 
-\- Dockerized Environment
+\* Dockerized Development Environment
 
 
 
@@ -186,7 +186,7 @@ Airflow\_ETL\_Project/
 
 
 
-!\[PostgreSQL](screenshots/postgres\_count.png)
+!\[PostgreSQL Verification](screenshots/postgres\_count.png)
 
 
 
@@ -276,15 +276,15 @@ Output
 
 
 
-\- Add data validation checks
+\* Add data validation checks
 
-\- Integrate AWS S3 storage
+\* Integrate AWS S3 for cloud storage
 
-\- Deploy Airflow on Kubernetes
+\* Deploy Apache Airflow on Kubernetes
 
-\- Build Power BI Dashboard
+\* Build a Power BI dashboard
 
-\- Add email notifications
+\* Add email notifications for DAG failures
 
 
 
@@ -296,11 +296,23 @@ Output
 
 
 
-This project demonstrates a complete ETL pipeline built using Apache Airflow, Python, PostgreSQL, and Docker. It automates the process of extracting, transforming, and loading Netflix data into a relational database while showcasing workflow orchestration and task scheduling.
+This project demonstrates an end-to-end ETL pipeline built using \*\*Apache Airflow\*\*, \*\*Python\*\*, \*\*PostgreSQL\*\*, and \*\*Docker\*\*. It automates the extraction, transformation, and loading of Netflix data into a relational database while showcasing workflow orchestration and scheduling.
 
 
 
-This project helped strengthen my understanding of data engineering concepts, ETL automation, Docker containerization, and workflow management using Apache Airflow.
+Through this project, I strengthened my understanding of:
+
+
+
+\* ETL pipeline development
+
+\* Workflow orchestration with Apache Airflow
+
+\* PostgreSQL database integration
+
+\* Docker containerization
+
+\* Data engineering best practices
 
 
 
@@ -308,9 +320,7 @@ This project helped strengthen my understanding of data engineering concepts, ET
 
 
 
-⭐ If you found this project useful, consider giving it a star on GitHub.
-
-
+⭐ \*\*If you found this project useful, please consider giving it a Star on GitHub!\*\*
 
 
 
